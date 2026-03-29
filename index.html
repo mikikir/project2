@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Флагмен стор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="wrap">
+        <h1>флагмен стор (токо флагмены)</h1>
+        <input type="text" id="find" placeholder="Найти смартфон...">
+    </div>
+</header>
+
+<div class="wrap main-content">
+    <div id="catalog" class="items-list"></div>
+
+    <aside class="cart-section">
+        <h3>Ваша корзина</h3>
+        <div id="cartDisplay"></div>
+        <div class="total-line">Всего: <span id="sum">0</span> $</div>
+        <button class="clear-btn" onclick="emptyCart()">Очистить</button>
+    </aside>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

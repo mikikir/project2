@@ -1,0 +1,48 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
+.wrap { max-width: 1100px; margin: 0 auto; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
+#find { padding: 10px; width: 300px; border-radius: 6px; border: 1px solid #ccc; }
+
+.main-content { display: flex; gap: 20px; }
+.items-list { flex: 3; display: flex; flex-direction: column; gap: 20px; }
+
+/* Стили карточки из примера */
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.card-img { width: 180px; text-align: center; }
+.card-img img { max-width: 100%; border-radius: 4px; }
+
+.card-info { flex: 1; color: #333; }
+.card-info h2 { font-size: 18px; margin-bottom: 10px; text-align: center; }
+.card-info p { font-size: 13px; margin: 4px 0; color: #444; }
+.card-info b { color: #000; font-weight: 600; }
+
+.price { font-size: 22px; font-weight: bold; margin-top: 12px; }
+
+/* Кнопка В КОРЗИНУ */
+.buy-btn {
+    background: #4a72ff;
+    color: white;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+.buy-btn:hover { background: #3a5edb; }
+
+/* Корзина */
+.cart-section { flex: 1; background: #fff; padding: 20px; border-radius: 12px; border: 1px solid #ddd; height: fit-content; }
+.cart-item { display: flex; justify-content: space-between; font-size: 13px; padding: 5px 0; border-bottom: 1px solid #eee; }
+.total-line { font-weight: bold; font-size: 18px; margin-top: 15px; }
+.clear-btn { margin-top: 10px; background: none; border: 1px solid #ff4d4d; color: #ff4d4d; cursor: pointer; padding: 5px; border-radius: 4px; width: 100%; }
